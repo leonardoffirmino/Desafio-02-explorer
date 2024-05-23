@@ -12,16 +12,36 @@ body{
 
 .main img{
   margin-top:64px;
+  padding-bottom:32px;
 }
 
 h1{
   font-family: 'Dosis', sans-serif;
   font-weight: bold;
-
+  color:#3F3D56;
+  padding-bottom:16px;
+  margin:0;
 }
 
 h1 span{
   color: #EE24FF;
+}
+
+
+.main p{
+  color:#828282;
+  font-size: 15px;
+  line-height: 22px;
+  
+}
+
+p strong{
+  color: #3F3D56;
+}
+
+.content p{
+  width:540px;
+  display: inline-block;
 }
 
 
