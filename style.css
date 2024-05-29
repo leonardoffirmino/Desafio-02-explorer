@@ -2,7 +2,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin:0;
-
+  min-width: 1024px;
 }
 
 .main{
@@ -44,5 +44,35 @@ p strong{
   display: inline-block;
 }
 
+.line{
+  width: 391px;
+  height: 0px;
+  border-top: 1px solid #ECEFF2 ;
+  margin: 0 auto ;
+  padding-top: 16px;
+}
+
+footer{
+  padding-top: 80px;
+}
+
+
+footer a {
+  text-decoration: none;
+  color: #3F3D56;
+  font-weight: bold;
+  line-height: 15px;
+  
+  
+}
+
+footer a + a {
+  padding-left: 42px;
+} 
+
+
+#footer-img{
+  padding-top: 40px;  
+}
 
 
